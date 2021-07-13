@@ -1,0 +1,36 @@
+.Content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    
+    padding-right: 80px;
+}
+
+.Content .TextBox{
+    position: relative;
+    max-width: 600px;
+    margin-left: 50px;
+}
+
+.Content .TextBox h2{
+    color: #333;
+    font-size: 3em;
+    line-height: 1.4em;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Content .TextBox h2 span{
+    color: #017143;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.Content .Imgbox{
+    width: 550px;
+    display: flex;
+    
+}

@@ -1,0 +1,52 @@
+/* *{
+    margin-top: 10px;
+} */
+.Modal {
+    margin-top: 10px;
+    
+    position:relative;
+    /* z-index: 200; */
+    background-color:whitesmoke;
+    /* width: 90%; */
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 6px black;
+    padding: 5px;
+    /* left: 15%; */
+    /* top: 30%; */
+    box-sizing: border-box;
+    
+   
+  
+  
+}
+
+/* .Card {
+    margin-top: 10px;
+    position:relative;
+    
+    
+    background-color: white;
+   
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 6px black;
+    padding: 16px;
+    
+    box-sizing: border-box;
+    
+   
+  
+  
+} */
+
+@media (min-width: 600px) {
+    .Modal {
+        width: 600px;
+        left: calc(50% - 300px);
+    }
+}
+/* @media (min-width: 600px) {
+    .Card {
+        width: 500px;
+        left: calc(50% - 250px);
+    }
+} */
